@@ -1,0 +1,17 @@
+com\xhorse\common\constant\DynamodbConstant.class
+com\xhorse\common\constant\RequestString.class
+com\xhorse\entity\SampleModule.class
+com\xhorse\entity\response\Result.class
+com\xhorse\common\util\ResultUtil.class
+com\xhorse\common\util\DynamoTabGenerator.class
+com\xhorse\handler\LambdaFunctionHandler.class
+com\xhorse\entity\response\GatewayResponse.class
+com\xhorse\entity\response\CopyHistoryResponse.class
+com\xhorse\entity\model\XhCopyHistory.class
+com\xhorse\service\ICopyHistoryService.class
+com\xhorse\config\SampleModule.class
+com\xhorse\common\enums\ResultEnum.class
+com\xhorse\entity\request\CopyHistoryRequest.class
+com\xhorse\common\util\RefUtil.class
+com\xhorse\service\impl\CopyHistoryServiceImpl.class
+com\xhorse\common\enums\MethodCallEnums.class

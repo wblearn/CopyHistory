@@ -7,8 +7,6 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.document.DynamoDB;
 
 public class DynamodbConstant {
-//    public static AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().withEndpointConfiguration(
-//            new AwsClientBuilder.EndpointConfiguration("http://10.128.25.41:8000", "cn-northwest-1")).build();
 public static AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().withEndpointConfiguration(
         new AwsClientBuilder.EndpointConfiguration("http://127.0.0.1:8000", "cn-northwest-1")).build();
 //    public static AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();
